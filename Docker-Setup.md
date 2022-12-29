@@ -43,7 +43,7 @@
   sudo apt-get install docker.io -y
   ```
 
-  ## Docker Installation on Centos
+  ## DOCKER INSTALLTION ON CENTOS
 
   1. Unistall old versions:
 
