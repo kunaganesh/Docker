@@ -9,6 +9,10 @@
 ```bash
   /var/lib/docker
 ```
+* To start the service of docker :
+```bash
+  systemctl start docker
+```
 * To check the version of docker :
 ```bash
   docker --version
