@@ -29,6 +29,14 @@ docker volume create <vol-name>
 docker run -d --name <con-name> --mount source=<vol-name>,target=<path of the volume storing in container/Any folder path> <img-name>
 //and we can attach same volume to another container to persist our data/files when we removed that container//
 ```
+* To delete a volume :
+```bash
+dokcer volume rm <vol-name>
+```
+* To delete non-using volumes :
+```bash
+docker volume prune
+```
 ### One Example For Docker volume using mySQL 
 ```bash
 Step 1  Create the volume
